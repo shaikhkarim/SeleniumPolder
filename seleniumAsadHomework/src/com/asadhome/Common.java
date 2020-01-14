@@ -13,7 +13,7 @@ WebDriver dr;
 		dr = new ChromeDriver(); 
 	}
 	void closeBrowser() throws InterruptedException {
-		Thread.sleep(5000);
+		Thread.sleep(6000);
 		dr.quit();
 	}
 	void getWebSite(String url) {
